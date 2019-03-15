@@ -1,0 +1,234 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+  text-decoration: none;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 60px;
+}
+nav a {
+  color: rgba(255,255,255,0.8);
+  font-size: 1em;
+}
+.heart{
+  margin-right: 20px;
+  font-size: 1.5em;
+}
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+header{
+  background-color: rgb(32, 101, 136);
+  padding-top: 15px;
+  min-height: 70px;
+  vertical-align: middle;
+}
+header img{
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+}
+.container{
+  max-width: 800px;
+  position: relative;
+  margin: 0 auto;
+}
+.container p{
+  color: #fff;
+  line-height: 1.6em;
+}
+.header-container{
+  width: 96%;
+  padding:  0 2%;
+  max-width: 1200px;
+  position: relative;
+  margin: 0 auto;
+}
+#header-form{
+max-width: 770px;
+display: inline-block;
+float: left;
+}
+#header-form input{
+  background: rgba(61, 62, 63, .5);
+  display: inline-block;
+  border:none;
+  min-height: 40px;
+}
+#header-form input[type=text]{
+  width: 700px;
+  padding-left: 15px;
+}
+#header-form input[type=submit]{
+  width: 40px;
+}
+.sign-up{
+float: left;
+margin-left: 10px;
+line-height: 40px;
+margin-right: 10px;
+color: white;
+font-weight: normal
+}
+header:after{
+  clear: both;
+}
+#build{
+  background-color: rgb(32, 101, 136);
+  background-image: url(../images/city-scape.svg);
+  padding-top: 70px;
+  min-height:250px;
+  background-size: cover;
+}
+#build p{
+  width: 480px;
+}
+.cta-btn{
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px;
+  color:white;
+  border-radius: 15px;
+}
+#build .cta-btn{
+  background-color: rgb(240, 146, 51);
+}
+#orgs .cta-btn{
+  background-color: rgb(203, 56, 55);
+  margin-bottom: 10px;
+}
+#npm .cta-btn{
+  background-color: rgb(49, 68, 88);
+  margin-bottom: 10px;
+}
+#blocks .cta-btn{
+  background-color: rgb(240, 146, 51);
+}
+.section-title{
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  font-weight: normal;
+  line-height: 1.3em;
+}
+#orgs{
+background-color: rgb(39, 53, 71);
+padding-top: 70px;
+min-height:300px;
+}
+#orgs img{
+float: left;
+display: inline-block;
+width:300px;
+margin-right: 30px;
+margin-bottom: 100px;
+}
+.features{
+  color: #fff;
+  line-height: 1.6em;
+  list-style-type: disc;
+}
+#orgs small{
+color:white;
+}
+#npm{
+  background-image: url(../images/forklift.svg);
+  background-size: cover;
+  padding: 50px 0;
+}
+#npm p{
+  width: 300px;
+}
+#blocks{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+h3{
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+.steps{
+  display: inline-block;
+  width: 31%;
+  vertical-align: top;
+  margin-top: 20px;
+}
+.steps img{
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 5px;
+}
+h4{
+  text-align: center;
+  color:rgb(83, 88, 98);
+  margin-bottom: 10px;
+}
+#blocks p{
+  color:rgb(83, 88, 98);
+}
+.steps a{
+  color:rgb(208, 74, 73);
+}
+.steps p{
+  color:rgb(135, 145, 156);
+}
+.middle-margin{
+  margin-left: 2%;
+  margin-right: 2%;
+}
